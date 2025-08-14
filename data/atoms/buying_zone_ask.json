@@ -1,0 +1,12 @@
+{
+  "atom_id": "BuyingZone.Ask.v1",
+  "intent": "Prompt the seller to recognize the buying zone and ask for card/BAMFAM.",
+  "pattern_data": {
+    "preconditions": ["Lead.qualified == true"],
+    "steps": [
+      "Identify explicit desire/clarity signals.",
+      "Say: 'Sounds like we're aligned. Would you like to put this on a card now, or should we BAMFAM for <date>?'"
+    ],
+    "kpis": ["card_or_bamfam_rate"]
+  }
+}

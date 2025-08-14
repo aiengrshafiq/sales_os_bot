@@ -1,0 +1,12 @@
+{
+  "atom_id": "SellByChat.DMQualifier.v1",
+  "intent": "Initial two-line qualifier for new inbound DMs.",
+  "pattern_data": {
+    "preconditions": ["new_chat_opened"],
+    "steps": [
+      "Have you done deals like this in the past?",
+      "How much are you looking to put to work?"
+    ],
+    "kpis": ["qualified_rate"]
+  }
+}
